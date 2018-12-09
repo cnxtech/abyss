@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    font-family: -apple-system, "PingFang SC", "Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+}
+
+.home {
+    width: 100%;
+    padding-top: 140px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.product-title {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.product-description {
+    width: 600px;
+    color: #999;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 200px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 5px 10px;
+}
+
+.download-btn {
+    background-color: black;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+}
+
+.star-btn {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    line-height: 40px;
+    height: 42px;
+    font-weight: 500;
+}
+
+.feature {
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 50px;
+    font-family: 'Abel', -apple-system, "PingFang SC", "Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .product-description {
+        padding: 0 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .product-image {
+        width: 100%;
+    }
+}
+
+
